@@ -36,7 +36,7 @@ class Wwwis {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wwwis-loader.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wwwis-i18n.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-wwwis-admin.php';
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wwwis-public.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'view/class-wwwis-public.php';
 
 		$this->loader = new Wwwis_Loader();
 
